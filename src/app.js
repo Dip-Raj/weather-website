@@ -70,7 +70,7 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help',
-        message: 'Visit here',
+        message: 'Contact me through my gmail',
         name: 'Dip Raj'
     })
 })
